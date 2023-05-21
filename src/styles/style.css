@@ -1,0 +1,40 @@
+.sidebarNav li a.active{
+    @apply bg-violet-700
+}
+.btn {
+    @apply py-2 px-5 text-white rounded uppercase;
+  }
+  .btn-dark {
+    @apply bg-gray-900 px-4 py-3 capitalize font-medium;
+  }
+  .btn-indigo {
+    @apply bg-indigo-600 text-white capitalize font-medium px-4 py-3 cursor-pointer !important;
+  }
+  .btn-warning {
+    @apply bg-orange-400 py-[6px];
+  }
+  .btn-danger {
+    @apply bg-rose-500 py-[6px];
+  }
+
+
+  .label {
+    @apply block mb-2 text-base capitalize text-gray-400;
+  }
+  .form-control {
+    @apply bg-gray-900 p-3 rounded-sm outline-none w-full focus:ring-[3px] ring-gray-700 transition-all duration-500 placeholder:text-gray-500 placeholder:capitalize;
+  }
+  .input-file {
+    @apply block file:py-2.5 file:px-4 file:rounded file:cursor-pointer file:bg-indigo-600 file:text-white file:text-sm file:font-medium file:mr-4;
+  }
+  .form-label {
+    @apply block mb-1.5 text-sm font-medium capitalize text-gray-700;
+  }
+  .form-input {
+    @apply w-full border px-3 py-3 border-gray-300 rounded-md outline-none; 
+  }
+
+.alert-danger
+{
+  @apply bg-rose-100 text-rose-700 p-3 mb-2 border-l-4 border-rose-600 text-sm font-medium
+}
